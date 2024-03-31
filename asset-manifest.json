@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/pinterest_clone/static/js/main.9f33fe23.js",
+    "static/js/787.7b623378.chunk.js": "/pinterest_clone/static/js/787.7b623378.chunk.js",
+    "index.html": "/pinterest_clone/index.html",
+    "main.9f33fe23.js.map": "/pinterest_clone/static/js/main.9f33fe23.js.map",
+    "787.7b623378.chunk.js.map": "/pinterest_clone/static/js/787.7b623378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9f33fe23.js"
+  ]
+}
