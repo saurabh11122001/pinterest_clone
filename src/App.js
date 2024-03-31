@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import {gsap,Power3} from "gsap";
+import Navbar from "./Components/Hero/Navbar";
+import Mainhero from "./Components/Hero/Mainhero";
+import AllStates from "./Context/AllStates";
+
 
 function App() {
+ let tl=new gsap.timeline()
+ let ease=Power3.easeOut()
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <AllStates>
+    <div >
+    <Navbar/>
+    <Mainhero timeline={tl} ease={ease}/>
     </div>
+    </AllStates>
+    </>
   );
 }
 
